@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\basic_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hexagon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fragmentShader.fs" />
+    <None Include="shaders\fragmentShaderForPhongShadingWithTexture.fs" />
+    <None Include="shaders\vertexShader.vs" />
+    <None Include="shaders\vertexShaderForPhongShadingWithTexture.vs" />
+    <None Include="shaders\skybox.fs" />
+    <None Include="shaders\skybox.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\color.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\road.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\brick.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\concrete.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\metal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tire.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\bark.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\leaf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\pot.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\white.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\orange.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\red.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\window.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\roof.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\lanemark.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\darkfloor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\stripe.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
